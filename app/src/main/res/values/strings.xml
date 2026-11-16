@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WatchGuard</string>
+    <string name="service_desc">Memantau aplikasi yang sedang dibuka untuk menerapkan batas waktu menonton.</string>
+</resources>
