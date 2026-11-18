@@ -10,6 +10,10 @@ menghasilkan dua artifact: `watchguard-tv-apk` dan `watchguard-remote-hp-apk`.
 ## Pasang
 - TV: `adb install -r app-debug.apk`
 - HP: pasang `phone-debug.apk` seperti APK biasa.
+- 
+## AKTIFKAN SERVICE
+adb shell settings put secure enabled_accessibility_services com.example.watchguard/com.example.watchguard.WatchGuardService
+adb shell settings put secure accessibility_enabled 1
 
 ## Pakai
 HP dan TV harus di Wi-Fi yang sama. Buka WatchGuard Remote, isi PIN orang tua.
