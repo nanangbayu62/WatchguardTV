@@ -13,6 +13,7 @@ menghasilkan dua artifact: `watchguard-tv-apk` dan `watchguard-remote-hp-apk`.
 - 
 ## AKTIFKAN SERVICE
 `adb shell settings put secure enabled_accessibility_services com.example.watchguard/com.example.watchguard.WatchGuardService`
+
 `adb shell settings put secure accessibility_enabled 1`
 
 ## Pakai
